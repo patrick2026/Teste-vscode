@@ -1,6 +1,7 @@
 function imprimirDados(dados) {
-    console.log(dados)
+    function imprimirDados(dados) {
+    console.log(dados())
 }
-imprimirDados(1)
-imprimirDados('testo')
-imprimirDados(true)
+imprimirDados(function () {
+retun 'ola mundo'
+} )
